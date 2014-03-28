@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-setup",
+  "version": "0.0.1",
+  "description": "sample mongodb project setup with in-project data file, schema, and auto generated  random sample data",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "coffee server.coffee",
+    "mongo": "mongod --config db/mongo.conf"
+  },
+  "author": "tiengtinh@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "~2.5.1",
+    "mongoose": "~3.8.8",
+    "express": "~3.5.1",
+    "underscore": "~1.6.0",
+    "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "charlatan": "~0.1.9"
+  }
+}
